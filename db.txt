@@ -1,0 +1,48 @@
+users
+ user_id
+ name
+ email
+ phone
+ address
+
+datewise_prices
+ id
+ date
+ gold
+ silver
+
+general_info
+  total_gold
+  total_silver
+  exchanged_gold
+  exchanged_silver
+
+products
+   product_id
+   name                     -   rings           braslets          biscuts
+   gross(weight)            -     100            100                  100
+   qty                          -     10               10                    10
+   category               -      Gold           G                      G
+   
+Invoices
+   invoice_id
+   user_info
+   description
+   date
+   discount
+   exc_cat_type
+   exc_gross_weight
+   exc_price
+   paid_amount
+   due_amount
+   total_amount
+
+invoice_info
+       id
+       invoice_id
+       product_id
+       gross/weight
+       qty
+       making_charges (if any)
+       stone_weight
+       price_of_product
